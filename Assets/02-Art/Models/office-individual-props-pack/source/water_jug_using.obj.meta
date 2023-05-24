@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 047ceeffacc29ce44afafef2ef6982d1
+guid: 8615e106ae6b9b04e96f1edf98661524
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Box
-    second: {fileID: 2100000, guid: 1aa2626127da6db46ac78f31113d7ed9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Paper_Stack
-    second: {fileID: 2100000, guid: e07788448a4c0664695522a8adc81c7f, type: 2}
+      name: Big_Bottle
+    second: {fileID: 2100000, guid: 67ad63eac2de4b942b3cf320101b5a0f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

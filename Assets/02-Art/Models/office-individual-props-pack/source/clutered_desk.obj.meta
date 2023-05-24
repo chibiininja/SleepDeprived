@@ -3,7 +3,152 @@ guid: 97643575420a89b48bb83f33e4f98a22
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Big_Wallpaper
+    second: {fileID: 2100000, guid: 876c510a3a573e5499065c52749d9b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box
+    second: {fileID: 2100000, guid: 1aa2626127da6db46ac78f31113d7ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cactus
+    second: {fileID: 2100000, guid: 41bc0fe2bf2046e45ab5e678c7adfecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drawer
+    second: {fileID: 2100000, guid: ea15e60a1ef681745bd66e6874ca5778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File01
+    second: {fileID: 2100000, guid: f81d5059dccde114bbec029ba385f5f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File02
+    second: {fileID: 2100000, guid: 328aebe85373f204db1a6e170dd04b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File03
+    second: {fileID: 2100000, guid: 56d8cc76ecee74a45b004b66106de7b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File04
+    second: {fileID: 2100000, guid: 6d900d7c9a61620499ed7de49dd028c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File_Stack
+    second: {fileID: 2100000, guid: 25aaf843bf640e745b14c3d468482c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File_Stand
+    second: {fileID: 2100000, guid: 47f6529e63cf61e478bed0ebb0ba50de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: File_Storage
+    second: {fileID: 2100000, guid: 77da31f2fbe0b9541994a710646071d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keyboard
+    second: {fileID: 2100000, guid: f1aaa101b39e55246a7fb85bc295cc9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp
+    second: {fileID: 2100000, guid: efaf10a2acd43d540a3e27ff8a39bddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monitor
+    second: {fileID: 2100000, guid: ae22429c7d5980449a81c9d835232db4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PC
+    second: {fileID: 2100000, guid: 41578297d11955d429ac35ba23a2d29f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper01
+    second: {fileID: 2100000, guid: 94907fa36c48b4c47a40a23c9f4bc2c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper02
+    second: {fileID: 2100000, guid: 3728d099372797646a33594c6ab85a0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper03
+    second: {fileID: 2100000, guid: f00e82aa58964b644b0b0dbc222d3968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper_Stack
+    second: {fileID: 2100000, guid: e07788448a4c0664695522a8adc81c7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo
+    second: {fileID: 2100000, guid: e45da3b289c3da24da2805c3e6e0c535, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PinBoard
+    second: {fileID: 2100000, guid: 06c57e0bedcb8b048bb848071c134519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf01
+    second: {fileID: 2100000, guid: f314d0baf1e8cb846a171cb3ef534474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf02
+    second: {fileID: 2100000, guid: 94ce30a5cbe445d48863a2d5975ea7e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf03
+    second: {fileID: 2100000, guid: 16f82069be383c446a54b68dd056d694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stool
+    second: {fileID: 2100000, guid: ca6d9bd74756f364e9952b008c1860e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table
+    second: {fileID: 2100000, guid: 40d1823b5fcb33f4d8a569b552d38c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tape
+    second: {fileID: 2100000, guid: 384026a459aca4c4098036ce8c13b00a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telephone
+    second: {fileID: 2100000, guid: 60ab8a68bb03e5a4d90c3889306322af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 5b30431c42d840a4a9dbc660919da792, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
