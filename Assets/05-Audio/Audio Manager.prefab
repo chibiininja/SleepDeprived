@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: keypress1
-    clip: {fileID: 8300000, guid: f8b7956f91871c64586b0aaa5ac24432, type: 3}
+    clip: {fileID: 8300000, guid: 1fbcf4c495b20de4699dc75754b2ba40, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     low_pass_cutoff: 0
     high_pass_cutoff: 0
   - name: keypress2
-    clip: {fileID: 8300000, guid: d324d14e9e915b44d8eeac9e226d0702, type: 3}
+    clip: {fileID: 8300000, guid: a09c6b6cc19e508499232341c38ec673, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
     low_pass_cutoff: 0
     high_pass_cutoff: 0
   - name: keypress3
-    clip: {fileID: 8300000, guid: 634a61c0aae87ca48bc4481a191b75cc, type: 3}
+    clip: {fileID: 8300000, guid: 9e3495cfd61d38c4d8961e8f04705e70, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     low_pass_cutoff: 0
     high_pass_cutoff: 0
   - name: keypress4
-    clip: {fileID: 8300000, guid: 3acf7f80f8f228e4083035f310e7067e, type: 3}
+    clip: {fileID: 8300000, guid: 4ff40525b4e61904f95bdb805d6e94fc, type: 3}
     volume: 1
     pitch: 1
     loop: 0
