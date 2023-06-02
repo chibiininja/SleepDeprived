@@ -15,12 +15,10 @@ public class WaterCupSocket : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (collider == cup && objectives.tasks[1].isOn && !objectives.tasks[2].isOn)
+        if (collider == cup && objectives.tasks[1].isOn && !objectives.triggers[0])
         {
-            objectives.Complete(2);
+            objectives.triggers[0] = true;
             audioManager.Play("waterpour");
-            audioManager.Play("taskcomplete");
-            audioManager.Play("yawn");
         }
     }
 }

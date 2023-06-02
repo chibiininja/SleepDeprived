@@ -101,6 +101,22 @@ MonoBehaviour:
     source: {fileID: 0}
     low_pass_cutoff: 0
     high_pass_cutoff: 0
+  - name: gulp
+    clip: {fileID: 8300000, guid: fcc4fa18ce069094ea730695a231664f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    low_pass_cutoff: 0
+    high_pass_cutoff: 0
+  - name: trash
+    clip: {fileID: 8300000, guid: 762a99379ec492448bd0fdb2b6ef0801, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    low_pass_cutoff: 0
+    high_pass_cutoff: 0
   musics:
   - name: officeambience
     clip: {fileID: 8300000, guid: f385ccafcc7602645897c3e0e4fb4f7a, type: 3}

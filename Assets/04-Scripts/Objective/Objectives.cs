@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Objectives : MonoBehaviour
 {
     public Toggle[] tasks;
+    public bool[] triggers;
 
     public void Complete(int i)
     {
