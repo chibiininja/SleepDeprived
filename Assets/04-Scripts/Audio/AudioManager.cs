@@ -5,8 +5,11 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    public bool debug = false;
     public Sound[] sounds;
     public Sound[] musics;
+
+    private int _selected;
 
     void Awake()
     {
@@ -33,6 +36,33 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         PlayMusic("officeambience");
+        _selected = 0;
+    }
+
+    private void Update()
+    {
+        if (debug)
+        {
+            if(Input.GetKeyDown(KeyCode.S))
+            {
+                Debug.Log("Playing: " + sounds[_selected].name);
+                sounds[_selected].source.Play();
+            }
+            else if(Input.GetKeyDown(KeyCode.A))
+            {
+                _selected--;
+                if (_selected < 0)
+                    _selected = sounds.Length - 1;
+                Debug.Log("Selected: " + sounds[_selected].name);
+            }
+            else if(Input.GetKeyDown(KeyCode.D))
+            {
+                _selected++;
+                if (_selected >= sounds.Length)
+                    _selected = 0;
+                Debug.Log("Selected: " + sounds[_selected].name);
+            }
+        }
     }
 
     public void Play(string name)
