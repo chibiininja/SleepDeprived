@@ -7,4 +7,6 @@ using UnityEngine;
 public class ObjectiveValues : ScriptableObject
 {
     public bool[] objectiveValues;
+
+    public bool gameStarted;
 }

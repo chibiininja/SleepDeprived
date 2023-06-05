@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26801f7a7b3126745a79162a292c4dde, type: 3}
   m_Name: ObjectiveValues
   m_EditorClassIdentifier: 
-  objectiveValues: 01000000
+  objectiveValues: 00000000
+  gameStarted: 0
