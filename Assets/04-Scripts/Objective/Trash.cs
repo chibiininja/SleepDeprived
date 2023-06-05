@@ -7,20 +7,18 @@ public class Trash : MonoBehaviour
     public AudioManager audioManager;
     public Objectives objectives;
 
-    private int _collected;
+    public int remaining = 10;
 
     // Start is called before the first frame update
     void Start()
     {
         audioManager = FindObjectOfType<AudioManager>();
-
-        _collected = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_collected == 10 && !objectives.tasks[3].isOn)
+        if (remaining == 0 && !objectives.tasks[3].isOn)
         {
             objectives.Complete(3);
             audioManager.Play("taskcomplete");
@@ -32,7 +30,7 @@ public class Trash : MonoBehaviour
     {
         if (other.tag == "Trash")
         {
-            _collected++;
+            remaining--;
             Destroy(other.gameObject);
             audioManager.Play("trash");
         }
