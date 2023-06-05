@@ -9483,6 +9483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1315711395}
   - component: {fileID: 1315711396}
+  - component: {fileID: 1315711397}
   m_Layer: 0
   m_Name: Objectives
   m_TagString: Untagged
@@ -9523,6 +9524,20 @@ MonoBehaviour:
   - {fileID: 1926231675}
   - {fileID: 964188379}
   triggers: 00
+--- !u!114 &1315711397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315711394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ceb4ea91f5896468fc3ce33fbdd6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectives: {fileID: 1315711396}
+  ov: {fileID: 11400000, guid: 2c3e741dc38f08d4787790b77a470933, type: 2}
 --- !u!1001 &1315946181
 PrefabInstance:
   m_ObjectHideFlags: 0
