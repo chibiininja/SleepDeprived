@@ -28,6 +28,7 @@ public class MenuManager : MonoBehaviour
     void OnApplicationQuit()
     {
         objectiveManager.ov.gameStarted = false;
+        objectiveManager.ov.visited = false;
     }
 
     public void StartGame()
@@ -36,5 +37,6 @@ public class MenuManager : MonoBehaviour
         dynamicMoveProvider.enabled = true;
         startMenu.gameObject.SetActive(false);
         objectiveManager.ov.gameStarted = true;
+        objectiveManager.ov.visited = false;
     }
 }

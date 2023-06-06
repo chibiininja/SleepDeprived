@@ -9,4 +9,6 @@ public class ObjectiveValues : ScriptableObject
     public bool[] objectiveValues;
 
     public bool gameStarted;
+
+    public bool visited;
 }

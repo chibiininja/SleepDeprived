@@ -118,6 +118,14 @@ MonoBehaviour:
     source: {fileID: 0}
     low_pass_cutoff: 0
     high_pass_cutoff: 0
+  - name: saunder_talk
+    clip: {fileID: 8300000, guid: ec6c5685f58e2d640978264cdcb373cc, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    low_pass_cutoff: 0
+    high_pass_cutoff: 0
   musics:
   - name: officeambience
     clip: {fileID: 8300000, guid: f385ccafcc7602645897c3e0e4fb4f7a, type: 3}
