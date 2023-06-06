@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01-Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/01-Scenes/Office.unity
+    guid: c99caa5b4ad846c40af6f59c8b24a7d6
+  - enabled: 1
+    path: Assets/01-Scenes/Boss.unity
+    guid: 4e7e58e100bdc6546b70a8767524064e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 445e633fbe16bdc4084ba7293b1b4bab,
       type: 2}

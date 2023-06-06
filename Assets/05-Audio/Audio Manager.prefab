@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb60883d9e12c1428af33014b6711d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debug: 1
+  debug: 0
   sounds:
   - name: keypress1
     clip: {fileID: 8300000, guid: 1fbcf4c495b20de4699dc75754b2ba40, type: 3}
