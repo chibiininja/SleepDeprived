@@ -35,5 +35,6 @@ public class MenuManager : MonoBehaviour
         teleportationArea.enabled = true;
         dynamicMoveProvider.enabled = true;
         startMenu.gameObject.SetActive(false);
+        objectiveManager.ov.gameStarted = true;
     }
 }

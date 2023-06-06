@@ -35,7 +35,6 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("officeambience");
         _selected = 0;
     }
 
