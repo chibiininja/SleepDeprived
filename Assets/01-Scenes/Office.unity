@@ -2319,7 +2319,7 @@ Canvas:
   m_GameObject: {fileID: 309967620}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1425361977}
   m_PlaneDistance: 0.1
   m_PixelPerfect: 0
@@ -8080,6 +8080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: {fileID: 1041409053}
   player: {fileID: 0}
+  radius: 2
 --- !u!225 &1041409053
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -10467,7 +10468,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Finally... some well deserved rest.
 
-    See you next time!'
+    See you next time!
+
+    Thanks
+    for playing!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -12473,6 +12477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: {fileID: 1468534759}
   player: {fileID: 0}
+  radius: 2
 --- !u!225 &1468534759
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -14462,6 +14467,7 @@ MonoBehaviour:
   audioManager: {fileID: 2077184103}
   fadeRenderer: {fileID: 973660312}
   exitMessage: {fileID: 309967621}
+  opaqueCover: {fileID: 2100000, guid: a514a1968dc882b4394bc77286cc67ea, type: 2}
   objectiveValues: {fileID: 11400000, guid: 2c3e741dc38f08d4787790b77a470933, type: 2}
   player: {fileID: 279073575}
 --- !u!1001 &1706682914

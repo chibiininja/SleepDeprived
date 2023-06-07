@@ -8,6 +8,7 @@ public class SceneController : MonoBehaviour
     public AudioManager audioManager;
     public Renderer fadeRenderer;
     public CanvasGroup exitMessage;
+    public Material opaqueCover;
     public ObjectiveValues objectiveValues;
     public GameObject player;
 
@@ -66,6 +67,8 @@ public class SceneController : MonoBehaviour
 
     IEnumerator QuitGame()
     {
+        yield return new WaitForSeconds(1f);
+        fadeRenderer.material = opaqueCover;
         for (float alpha = 0f; alpha <= 1; alpha += 0.01f)
         {
             exitMessage.alpha = alpha;
