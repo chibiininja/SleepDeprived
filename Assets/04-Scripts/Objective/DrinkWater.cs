@@ -5,7 +5,6 @@ using UnityEngine;
 public class DrinkWater : MonoBehaviour
 {
     public Collider cup;
-    public Collider waterDispenserTrigger;
     public Objectives objectives;
     public AudioManager audioManager;
 
@@ -23,13 +22,6 @@ public class DrinkWater : MonoBehaviour
             StartCoroutine(playGulp());
             objectives.Complete(2);
             objectives.triggers[0] = false;
-        }
-        else if(other == waterDispenserTrigger)
-        {
-            if (!objectives.tasks[2].isOn)
-                StartCoroutine(playAudio());
-            StartCoroutine(playGulp());
-            objectives.Complete(2);
         }
     }
 
