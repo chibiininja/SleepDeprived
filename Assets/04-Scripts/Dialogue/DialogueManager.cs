@@ -17,7 +17,11 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         audioManager = FindObjectOfType<AudioManager>();
+    }
 
+    void Update()
+    {
+        npc.SetBool("Visited", ov.visited);
         int counter = 0;
         foreach (bool value in ov.objectiveValues)
         {
@@ -26,11 +30,6 @@ public class DialogueManager : MonoBehaviour
         }
 
         npc.SetInteger("TasksCompleted", counter);
-    }
-
-    void Update()
-    {
-        npc.SetBool("Visited", ov.visited);
     }
 
     public void StartDialogue()

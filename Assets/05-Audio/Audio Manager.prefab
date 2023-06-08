@@ -48,7 +48,7 @@ MonoBehaviour:
   sounds:
   - name: keypress1
     clip: {fileID: 8300000, guid: 1fbcf4c495b20de4699dc75754b2ba40, type: 3}
-    volume: 0.3
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: keypress2
     clip: {fileID: 8300000, guid: a09c6b6cc19e508499232341c38ec673, type: 3}
-    volume: 0.3
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -64,7 +64,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: keypress3
     clip: {fileID: 8300000, guid: 9e3495cfd61d38c4d8961e8f04705e70, type: 3}
-    volume: 0.3
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -72,7 +72,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: keypress4
     clip: {fileID: 8300000, guid: 4ff40525b4e61904f95bdb805d6e94fc, type: 3}
-    volume: 0.3
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -80,7 +80,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: waterpour
     clip: {fileID: 8300000, guid: 12caf14d64fa349458e9a79018c69f30, type: 3}
-    volume: 0.4
+    volume: 0.6
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -88,7 +88,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: taskcomplete
     clip: {fileID: 8300000, guid: 0fdf4dce2a732db4885ea349019a0ec5, type: 3}
-    volume: 0.5
+    volume: 0.65
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -96,7 +96,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: yawn
     clip: {fileID: 8300000, guid: 05fc7f0e561386c4fbd34602dc178e49, type: 3}
-    volume: 0.4
+    volume: 0.6
     pitch: 1.2
     loop: 0
     source: {fileID: 0}
@@ -104,7 +104,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: gulp
     clip: {fileID: 8300000, guid: fcc4fa18ce069094ea730695a231664f, type: 3}
-    volume: 0.2
+    volume: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: trash
     clip: {fileID: 8300000, guid: 762a99379ec492448bd0fdb2b6ef0801, type: 3}
-    volume: 0.3
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -120,7 +120,7 @@ MonoBehaviour:
     high_pass_cutoff: 0
   - name: saunder_talk
     clip: {fileID: 8300000, guid: ec6c5685f58e2d640978264cdcb373cc, type: 3}
-    volume: 0.4
+    volume: 0.65
     pitch: 1
     loop: 1
     source: {fileID: 0}
