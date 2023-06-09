@@ -11,6 +11,7 @@ public class SceneController : MonoBehaviour
     public Material opaqueCover;
     public ObjectiveValues objectiveValues;
     public GameObject player;
+    public GameObject bossMessage;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class SceneController : MonoBehaviour
         c.a = 1f;
         fadeRenderer.material.color = c;
         exitMessage.alpha = 0;
+        bossMessage.SetActive(false);
 
         if (current_scene_name == "Boss")
             audioManager.musics[0].source.volume = audioManager.musics[0].source.volume / 4;
@@ -61,8 +63,15 @@ public class SceneController : MonoBehaviour
 
     public void Quit()
     {
-        StartCoroutine(Cover());
-        StartCoroutine(QuitGame());
+        if (objectiveValues.visited == true)
+        {
+            StartCoroutine(Cover());
+            StartCoroutine(QuitGame());
+        }
+        else
+        {
+            StartCoroutine(BossReminder());
+        }
     }
 
     IEnumerator QuitGame()
@@ -77,6 +86,13 @@ public class SceneController : MonoBehaviour
 
         yield return new WaitForSeconds(3f);
         Application.Quit();
+    }
+
+    IEnumerator BossReminder()
+    {
+        bossMessage.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        bossMessage.SetActive(false);
     }
 
     public void ChangeScene(string scene_name)
